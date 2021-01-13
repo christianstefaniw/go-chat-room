@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" href="style.css">
+        <title>Go Chat App</title>
+    </head>
+    <body>
+    <div class="container"></div>
+
+    <div class="form">
+        <form onsubmit="app.doSendMessage(); return false;">
+            <div class="placeholder">
+                <label>Hello <b class="username"></b>. Say something: </label>
+            </div>
+            <input class="input-message" type="text" placeholder="Enter message">
+            <button type="submit">Send</button>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+    </body>
+</html>
